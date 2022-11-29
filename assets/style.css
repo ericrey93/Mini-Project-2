@@ -1,0 +1,31 @@
+* {
+    background-color: rgb(24, 50, 50);
+}
+
+ :root {
+ --primary: rgba(13, 0, 255, 0.438);
+ --headfont: Courier;
+}
+
+header {
+    color: var(--primary);
+    font-family: var(--headfont);
+    margin-left: 350px;
+    font-size: 50px;
+}
+
+.content1 {
+position: relative;
+margin: 30px;
+padding: 20px;
+color: antiquewhite;
+
+}
+
+.card-header {
+    color: var(--primary);
+    font-family: var(--headfont);
+    position: relative;
+    flex-direction: column;
+    display: inline-block;
+}
